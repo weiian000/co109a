@@ -1,7 +1,7 @@
 # 第一章前六題
 
 ## Not
-
+<html>
 code
 <pre>
 // This file is part of www.nand2tetris.org
@@ -167,3 +167,4 @@ CHIP DMux {
 }
 </pre>
 <img  src = "./Pic/Dmux.jpg" heigh = "350px" width = "350">
+</html>
