@@ -23,6 +23,7 @@ CHIP Not {
 }
 </pre>
 <img  src = "./PIC/Not.jpg" heigh = "350px" width = "350">
+
 ## And
 
 * code
@@ -48,6 +49,7 @@ CHIP And {
   Not( in= AnandB, in = AnandB,out = out);
 }
 </pre>
+
 <img  src = "./PIC/And.jpg" heigh = "350px" width = "350">
 
 ## Or
@@ -76,6 +78,7 @@ CHIP Or {
     Nand(a = na,b = nb, out = out);
 }
 </pre>
+
 <img  src = "./Pic/Or.jpg" heigh = "350px" width = "350">
 
 ## Xor
@@ -105,6 +108,7 @@ CHIP Xor {
     Or(a = naandb, b = aandnb,out = out);
 }
 </pre>
+
 <img  src = "./Pic/Xor.jpg" heigh = "350px" width = "350">
 
 ## MUX
@@ -135,6 +139,7 @@ CHIP Mux {
         Or(a = a1, b = a2,out = out);
 }
 </pre>
+
 <img  src = "./Pic/Mux.jpg" heigh = "350px" width = "350">
 
 ## Dmux
@@ -163,5 +168,6 @@ CHIP DMux {
     And(a = sel , b = in, out =b);
 }
 </pre>
+
 <img  src = "./Pic/Dmux.jpg" heigh = "350px" width = "350">
 </html>
