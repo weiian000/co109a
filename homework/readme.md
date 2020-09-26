@@ -22,6 +22,7 @@ CHIP Not {
     Nand(a=in, b=in, out=out);
 }
 </pre>
+<html>
 <body>
 <img  src = "./Pic/Not.jpg" alt = "no pic" heigh = "350px" width = "350px"></p>
 </body>
