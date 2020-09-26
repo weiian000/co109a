@@ -79,7 +79,7 @@ CHIP Or {
 }
 </pre>
 
-<img  src = "./Pic/Or.jpg" heigh = "350px" width = "350">
+<img  src = "./PIC/Or.jpg" heigh = "350px" width = "350">
 
 ## Xor
 
@@ -109,7 +109,7 @@ CHIP Xor {
 }
 </pre>
 
-<img  src = "./Pic/Xor.jpg" heigh = "350px" width = "350">
+<img  src = "./PIC/Xor.jpg" heigh = "350px" width = "350">
 
 ## MUX
 
@@ -140,7 +140,7 @@ CHIP Mux {
 }
 </pre>
 
-<img  src = "./Pic/Mux.jpg" heigh = "350px" width = "350">
+<img  src = "./PIC/Mux.jpg" heigh = "350px" width = "350">
 
 ## Dmux
 
@@ -169,5 +169,5 @@ CHIP DMux {
 }
 </pre>
 
-<img  src = "./Pic/Dmux.jpg" heigh = "350px" width = "350">
+<img  src = "./PIC/Dmux.jpg" heigh = "350px" width = "350">
 </html>
