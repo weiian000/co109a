@@ -22,10 +22,7 @@ CHIP Not {
     Nand(a=in, b=in, out=out);
 }
 </pre>
-<html>
-<body>
-<img  src = "./Pic/Not.jpg" alt = "no pic" heigh = "350px" width = "350px"></p>
-</body>
+<img  src = "./PIC/Not.jpg" heigh = "350px" width = "350">
 ## And
 
 * code
@@ -51,7 +48,7 @@ CHIP And {
   Not( in= AnandB, in = AnandB,out = out);
 }
 </pre>
-<img  src = "./Pic/And.jpg" heigh = "350px" width = "350">
+<img  src = "./PIC/And.jpg" heigh = "350px" width = "350">
 
 ## Or
 
