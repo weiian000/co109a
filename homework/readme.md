@@ -1,8 +1,7 @@
 # 第一章前六題
 
 ## Not
-<html>
-code
+* code
 <pre>
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -23,9 +22,9 @@ CHIP Not {
     Nand(a=in, b=in, out=out);
 }
 </pre>
-
-<img  src = "./Pic/Not.jpg" alt = "no pic" heigh = "350px" width = "350px">
-
+<body>
+<img  src = "./Pic/Not.jpg" alt = "no pic" heigh = "350px" width = "350px"></p>
+</body>
 ## And
 
 * code
