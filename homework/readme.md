@@ -24,7 +24,7 @@ CHIP Not {
 }
 </pre>
 
-<img  src = "./Pic/Not.jpg" heigh = "350px" width = "350px">
+<img  src = "./Pic/Not.jpg" alt = "no pic" heigh = "350px" width = "350px">
 
 ## And
 
