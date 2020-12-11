@@ -22,7 +22,7 @@ CHIP Not {
     Nand(a=in, b=in, out=out);
 }
 </pre>
-<img  src = "./PIC/Not.jpg" heigh = "350px" width = "350">
+<img  src = "./Not.jpg" heigh = "350px" width = "350">
 
 ## And
 
@@ -50,7 +50,7 @@ CHIP And {
 }
 </pre>
 
-<img  src = "./PIC/And.jpg" heigh = "350px" width = "350">
+<img  src = "./And.jpg" heigh = "350px" width = "350">
 
 ## Or
 
@@ -79,7 +79,7 @@ CHIP Or {
 }
 </pre>
 
-<img  src = "./PIC/Or.jpg" heigh = "350px" width = "350">
+<img  src = "./Or.jpg" heigh = "350px" width = "350">
 
 ## Xor
 
@@ -109,7 +109,7 @@ CHIP Xor {
 }
 </pre>
 
-<img  src = "./PIC/Xor.jpg" heigh = "350px" width = "350">
+<img  src = "./Xor.jpg" heigh = "350px" width = "350">
 
 ## MUX
 
@@ -140,7 +140,7 @@ CHIP Mux {
 }
 </pre>
 
-<img  src = "./PIC/Mux.jpg" heigh = "350px" width = "350">
+<img  src = "./Mux.jpg" heigh = "350px" width = "350">
 
 ## Dmux
 
@@ -169,5 +169,5 @@ CHIP DMux {
 }
 </pre>
 
-<img  src = "./PIC/Dmux.jpg" heigh = "350px" width = "350">
+<img  src = "./Dmux.jpg" heigh = "350px" width = "350">
 </html>
