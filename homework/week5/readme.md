@@ -1,3 +1,6 @@
+# ALU and ALU-nostat
+* 先做ALU-nostat，測試正確後用ALU.tst測試
+
 # 1.ALU-nostat
 * code
 <pre>

@@ -1,17 +1,36 @@
-// This file is part of www.nand2tetris.org
-// and the book "The Elements of Computing Systems"
-// by Nisan and Schocken, MIT Press.
-// File name: projects/04/Fill.asm
+# Fill.asm
 
-// Runs an infinite loop that listens to the keyboard input.
-// When a key is pressed (any key), the program blackens the screen,
-// i.e. writes "black" in every pixel;
-// the screen should remain fully black as long as the key is pressed. 
-// When no key is pressed, the program clears the screen, i.e. writes
-// "white" in every pixel;
-// the screen should remain fully clear as long as no key is pressed.
 
-// Put your code here.
+* 先寫c做測試 
+<pre>
+
+//16384-24575-->螢幕顯示
+//24576 -->偵測鍵盤
+
+initial://  i設回16384為螢幕顯示第一號
+    i = 16384;
+color: //   顏色
+    if(i>=24576); //壓下任意鍵
+    goto leavefor; 
+
+    int  color1 =0 //白色
+    if(M[24576] ==0){//放開鍵盤時
+        goto NEXT
+    }
+    color1 = -1//黑色
+
+NEXT://逐一對16384-24575的位置設值 0或-1
+    M[i] = color;
+    i++;
+    goto color;
+
+leavefor:
+    goto initial;
+</pre>
+
+* 轉為組合語言
+
+<pre>
 //16384-24575-->螢幕顯示
 //24576 -->偵測鍵盤
 
@@ -68,3 +87,12 @@
 //    goto initial;
         @initial
         0;JMP
+</pre>
+
+* 帶入Fill.asm做測試 先使用Assembeler.bat 轉換為 Fill.hack
+
+<img src ="./1.png">
+
+* 接著用CPUEmulator.bat做測試
+
+<img src ="./2.png">

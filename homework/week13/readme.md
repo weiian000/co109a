@@ -1,3 +1,7 @@
+## Computer
+
+* Code
+<pre>
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -25,3 +29,7 @@ CHIP Computer {
     CPU(inM=inM,instruction=instruction,reset=reset,writeM=writeM,outM=outM,addressM=addressM,pc=pc);
     Memory(in=outM,address=addressM,load=writeM,out=inM);
 }
+</pre>
+
+<img  src = "./computer.jpg" heigh = "350px" width = "500px">
+

@@ -1,3 +1,7 @@
+## Memory
+
+* code
+<pre>
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
@@ -41,3 +45,6 @@ CHIP Memory {
 		
 
 }
+</pre>
+
+<img  src = "./memory.jpg" heigh = "350px" width = "350">
